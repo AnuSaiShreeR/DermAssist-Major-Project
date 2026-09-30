@@ -1,0 +1,39 @@
+{
+  "experiment_id": "E4_resnet18_layer4_unfrozen_weighted_loss",
+  "test_loss": 0.7129130179058768,
+  "test_metrics": {
+    "accuracy": 0.7052561543579507,
+    "balanced_accuracy": 0.6822975547026252,
+    "macro_f1": 0.6107153117411166,
+    "weighted_f1": 0.733450969452954
+  },
+  "train_distribution": {
+    "akiec": 229,
+    "bcc": 360,
+    "bkl": 769,
+    "df": 81,
+    "mel": 779,
+    "nv": 4693,
+    "vasc": 99
+  },
+  "class_names": [
+    "akiec",
+    "bcc",
+    "bkl",
+    "df",
+    "mel",
+    "nv",
+    "vasc"
+  ],
+  "class_weights": [
+    4.373050689697266,
+    2.7817461490631104,
+    1.3022477626800537,
+    12.36331558227539,
+    1.285530924797058,
+    0.21338772773742676,
+    10.115440368652344
+  ],
+  "trainable_params": 8397319,
+  "total_params": 11180103
+}
